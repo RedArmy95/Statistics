@@ -1,0 +1,13 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+zvalue = qnorm(1-0.95,,,FALSE)
+sd1=698.36
+n=20
+mu=1261.36
+xc = mu + zvalue * sd1 / sqrt(n)
+xc
+```
